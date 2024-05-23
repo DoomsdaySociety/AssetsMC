@@ -8,7 +8,6 @@ version = "1.0-SNAPSHOT"
 
 tasks {
     jar {
-        archiveExtension.set("zip")
         from(zipTree("resource.zip"))
     }
 }
